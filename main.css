@@ -1,0 +1,68 @@
+/* ADD YOUR STYLES HERE */
+
+
+/*===========================================================================*/
+                        /* ~~~ 14. Signup form ~~~ */ 
+/*===========================================================================*/
+
+
+.form-container {
+    text-align: left;
+    width: 50%;
+}
+
+.input-container {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: right; 
+}
+
+.form-input-long {
+    width: 200px;
+}
+
+.input-border {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.form-label {
+    padding-right: 15px
+}
+
+.form-input-short {
+    width: 100px;
+}
+
+.form-input-super-short {
+    width: 25px;
+}
+
+.super-short-input-label {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.btn-container {
+    text-align: right;
+}
+
+.btn {
+    width: 204px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: grey;
+    padding: 10px;
+}
+
+
+/*===========================================================================*/
+                        /* ~~~ 15. Form Validation ~~~ */ 
+/*===========================================================================*/
+
