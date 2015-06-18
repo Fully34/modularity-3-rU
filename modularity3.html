@@ -22,15 +22,15 @@
             <form class="form-container">
               <div class="input-container">
                 <label class="form-label">First Name</label>
-                <input class="form-input-long" type="text" name="firstName">
+                <input class="form-input-long input-border" type="text" name="firstName">
               </div>
               <div class="input-container">
                 <label class="form-label">Last Name</label>
-                <input class="form-input-long" type="text" name="lastName">
+                <input class="form-input-long input-border" type="text" name="lastName">
               </div>
               <div class="input-container">
                 <label class="form-label">Email</label>
-                <input class="form-input-long" type="email" name="email">
+                <input class="form-input-long input-border" type="email" name="email">
               </div>
             </form>
             <!-- End editable area -->
@@ -79,20 +79,20 @@
           <p class="instruction-text">Create styles for validated inputs and validation messages.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <form>
-              <div>
-                <label>First Name</label>
-                <input type="text" name="firstName" value="Pascal">
+            <form class="new-form-container clearfix">
+              <div class="new-input-container margin-top-20">
+                <label class="form-label">First Name</label>
+                <input class="valid-box-shad input-border form-input-long" type="text" name="firstName" value="Pascal">
                 <span class="is-valid">✓</span>
               </div>
-              <div>
-                <label>Last Name</label>
-                <input type="text" name="lastName">
+              <div class="new-input-container margin-top-20">
+                <label class="form-label">Last Name</label>
+                <input class="input-border form-input-long" type="text" name="lastName">
               </div>
-              <div>
-                <label>Email</label>
-                <input type="email" name="email" value="myemail@something">
-                <span class="is-invalid">Please enter a valid value.</span>
+              <div class="new-input-container margin-top-20">
+                <label class="form-label extra-padding">Email</label>
+                <input class="invalid-box-shad input-border form-input-long inline-block" type="email" name="email" value="myemail@something">
+                <span class="is-invalid inline-block">Please enter a valid value.</span>
               </div>
             </form>
             <!-- End editable area -->

@@ -1,6 +1,25 @@
 /* ADD YOUR STYLES HERE */
 
+/*===========================================================================*/
+                        /* ~~~ UTILITY CLASSES ~~~ */ 
+/*===========================================================================*/
 
+.inline-block {
+    display: inline-block;
+}
+
+.extra-padding {
+    padding-left: 36px;
+}
+
+.clearfix {
+    overflow:hidden;
+    z-index: 10;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
 /*===========================================================================*/
                         /* ~~~ 14. Signup form ~~~ */ 
 /*===========================================================================*/
@@ -20,6 +39,7 @@
 
 .form-input-long {
     width: 200px;
+    height: 30px;
 }
 
 .input-border {
@@ -33,10 +53,12 @@
 
 .form-input-short {
     width: 100px;
+    height: 30px;
 }
 
 .form-input-super-short {
     width: 25px;
+    height: 30px;
 }
 
 .super-short-input-label {
@@ -65,4 +87,36 @@
 /*===========================================================================*/
                         /* ~~~ 15. Form Validation ~~~ */ 
 /*===========================================================================*/
+
+/*USING STYLES FROM ABOVE TO POSITION STUFF WHERE I WANT IT*/
+
+.new-form-container {
+    text-align: left;
+}
+
+
+.new-input-container {
+    text-align: left;
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.is-valid {
+    color: rgba(67, 205, 66, 1);
+    padding-left: 25px;
+}
+
+.valid-box-shad {
+    box-shadow: 0px 0px 6px 2px rgba(67,205,66,1);
+}
+.is-invalid {
+    color: red;
+    padding-left: 25px;
+}
+
+.invalid-box-shad {
+    box-shadow: 0px 0px 6px 2px rgba(246,45,49,0.59);
+}
 
