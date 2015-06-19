@@ -24,6 +24,10 @@
 .align-right {
     text-align: right;
 }
+
+.vertical-align {
+    vertical-align: middle;
+}
 /*===========================================================================*/
                         /* ~~~ 14. Signup form ~~~ */ 
 /*===========================================================================*/
@@ -162,6 +166,7 @@
     color: white;
     border: none;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .col-2-12 {
@@ -173,4 +178,54 @@
 }
 
 
+/*===========================================================================*/
+                        /* ~~~ 17. OMNIBOX ~~~ */ 
+/*===========================================================================*/
 
+.omnibox-container {
+    display: inline-block;
+    position: relative;
+
+}
+
+.input-field {
+    display: inline-block;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    width: 600px;
+    height: 40px;
+}
+
+.omnibox-list {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    z-index: 11;
+    list-style: none;
+    padding: 6px;
+}
+
+
+
+.x-marks-the-spot {
+    background-color: #5A52B8;
+    border-radius: 5px;
+    color: #C1C1C1;
+    padding: 1px 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.omnibox-list-item {
+    background-color: #6F6FF0;
+    color: white;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.input-field::-webkit-input-placeholder {
+    text-indent: 300px;
+}
